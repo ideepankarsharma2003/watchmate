@@ -1,4 +1,6 @@
-Watchmate is a practical implementation of a DRF (Django Rest Framework) IMDb clone, based on the course ["Learn Basics to Advanced Django REST Framework by building IMDB API Clone (JWT, Token, Throttling, Pagination, Testing)"](https://www.udemy.com/course/django-rest-framework/learn/lecture/25562526#overview) by Shubham Sarda.
+# Watchmate
+
+Watchmate is a practical implementation of a DRF (Django Rest Framework) IMDb clone, based on the course [**"Learn Basics to Advanced Django REST Framework by building IMDB API Clone (JWT, Token, Throttling, Pagination, Testing)"**](https://www.udemy.com/course/django-rest-framework/learn/lecture/25562526#overview) by Shubham Sarda.
 
 ## Features
 
