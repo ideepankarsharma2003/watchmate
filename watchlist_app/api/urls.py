@@ -1,14 +1,12 @@
 from django.urls import path, include
 
-# from .views import movie_list, movie_detail # Function Based Views
-from .views import MovieList, MovieDetail # Class Based Views
+from .views import WatchListAPI, WatchListDetail, StreamPlatformAPI, StreamPlatformDetail # Class Based Views
 
 urlpatterns = [
-    # Function Based Views
-    # path('list/', movie_list, name='movie-list'),
-    # path('detail/<int:pk>/', movie_detail, name='movie-detail'), 
 
     # Class Based Views
-    path('list/', MovieList.as_view(), name='movie-list'),
-    path('detail/<int:pk>/', MovieDetail.as_view(), name='movie-detail'),
+    path('list/', WatchListAPI.as_view(), name='movie-list'),
+    path('detail/<int:pk>/', WatchListDetail.as_view(), name='movie-detail'),
+    path('stream/', StreamPlatformAPI.as_view(), name='stream'),
+    path('stream/<int:pk>/', StreamPlatformDetail.as_view(), name='stream-detail'),
 ]
